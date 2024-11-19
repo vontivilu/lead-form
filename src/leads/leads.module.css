@@ -1,0 +1,56 @@
+.container{
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar{
+  width: 250px;
+  padding: 20px;
+  border-right: 1px solid #d3d3d3;
+}
+.sidebar div{
+  font-size: 42px;
+  font-weight: 600;
+}
+.sidebar ul{
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar ul li{
+  margin: 20px 0;
+}
+.sidebar ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+.sidebar ul li a:hover{
+  text-decoration: underline;
+}
+.content{
+  flex: 1;
+  padding: 20px;
+}
+.content h1{
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.content p{
+  margin-bottom: 20px;
+}
+.leadsTable{
+  width: 100%;
+  border-collapse: collapse;
+}
+.leadsTable thead td{
+  color: #666;
+}
+.leadsTable td{
+  border: 1px solid #d3d3d3;
+  padding: 15px;
+}
+.searchField{
+  margin-bottom: 20px;
+  height: 35px;
+  padding-left: 10px;
+  width: 200px;
+}
