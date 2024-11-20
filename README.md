@@ -11,11 +11,11 @@ Each page route has its own CSS file in a separate folder except the homepage wh
 
 ## Details about the code
 
-Across the pages, various comments are added under sections where the code can be refactored due to the interst of time. The pages are responsive, follows HTML semantics, optimized for SEO and accessibility. 
+Across the pages, various comments are added under sections where the code can be refactored due to the interest of time. The pages are responsive, follows HTML semantics, optimized for SEO and accessibility. 
 
 React router dom has been used for routing instead of Next.js due to compatibility issues with my Mac version. 
 
-Localstorge has been used for quicker setup for demo purposes and ideally Redux/useContext would be used for state management. 
+Localstorge has been used for quicker setup for demo purposes. Ideally Redux/useContext would be used for state management in larger applications. 
 
 ## Steps to run the application
 
